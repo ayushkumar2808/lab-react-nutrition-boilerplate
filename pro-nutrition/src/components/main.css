@@ -1,0 +1,28 @@
+
+#food-img{
+    height: 10vh;
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
+#full-content{
+    background-color: rgb(170, 167, 170);
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2%;
+    margin-bottom: 3vh;
+}
+#input-and-button{
+    display: flex;
+}
+#total-calories{
+    display: flex;
+    align-items: center;
+    
+}
+#reset-button{
+    height: 3.5vh;
+    margin-left: 1vh;
+}
