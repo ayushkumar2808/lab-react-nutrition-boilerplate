@@ -64,7 +64,7 @@ class Main extends Component{
       </div>
       <div id='input-and-button'>
         <div>
-        <input type="number" onChange={this.handleChange} />
+        <input type="number" defaultValue="0" onChange={this.handleChange} />
         </div>
         <div>
           <button onClick={()=>this.getCalories(item.id)}>+</button>
